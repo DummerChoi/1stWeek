@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>index.html</title>
+		<style type="text/css">
+			h1{text-align: center; color: brown;}
+			i{font-size: 3pt;}
+	        a{text-decoration:none; font-size:16pt; font-weight:bold; }
+	        a:hover{color:red; font-size:20pt; font-weight:bold; text-decoration:underline; }
+	    </style>
+	</head>
+
+<body>
+  <div style="border: 1px solid gray">
+	<h1> 구로시 CGV </h1> 
+	<script>
+	function fnURL(url){
+	document.getElementById('main_frame').src=url;
+	};
+
+	</script>
+	<ul>
+	<li><a href="https://www.cgv.co.kr/" target="_blank">홈페이지</a></li>
+	<li><a href="#" onclick="fnURL('movie.html');">홍보동영상</a></li>
+	<li><a href="#" onclick="fnURL('event.html');">이벤트</a></li>
+	<li><a href="#" onclick="fnURL('support.html');">카드결재</a></li>
+	</ul>
+
+	<iframe id="main_frame" src="main.html" width="780" height="220" target="link"></iframe><p>
+
+		<i>
+		(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동) <br>
+		대표이사 :	허민회 <br>
+		사업자등록번호 <br>
+		104-81-45690 <br>
+		대표이메일 <br>
+		cjcgvmaster@cj.net <br>
+		© CJ CGV. All Rights Reserved
+		</i>
+   </div>
+
+   <br><br><br>
+   <br><br><br>
+   <br><br><br>
+</body>
+</html>
+
+
+
